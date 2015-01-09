@@ -5,11 +5,11 @@ var array = [];
 $("index.html").ready(function(){
   $("#go").click(function(){
 
-    	generateShit();
+    	generate();
   });
 });
 
-function generateShit(){
+function generate(){
 		row = $("#row").val();
     	col = $("#col").val();
 
